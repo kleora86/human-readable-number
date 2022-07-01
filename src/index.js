@@ -1,5 +1,5 @@
-module.exports = function toReadable (number) {
-   if (str===0){return "Zero";} else
+module.exports = function toReadable (str) {
+    if (str===0){return "Zero";} else
   if (str===1){return "One";} else
   if (str===2){return "Two";} else
   if (str===3){return "Three";}else
@@ -21,4 +21,5 @@ module.exports = function toReadable (number) {
   if (str===19){return "Nineteen";} else
   if (str===20){return "Twelwe";}else
    return "FAL-SE";
+
 }
